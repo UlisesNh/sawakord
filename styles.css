@@ -107,8 +107,11 @@ p {
 p {
   background-image: linear-gradient(to right, #f6d365, #fda085);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
+
 
 /* Estilo de texto con animación */
 p {
@@ -121,7 +124,7 @@ p {
   100% { color: rgb(130, 169, 241); }
 }
 
-h1::after {
-  content: "\1F496"; /* Código Unicode del emoji de corazón */
-}
+/*h1::after {
+  content: "\1F496"; /* Código Unicode del emoji de corazón 
+}*/
 
