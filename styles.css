@@ -124,7 +124,6 @@ p {
   100% { color: rgb(130, 169, 241); }
 }
 
-/*h1::after {
-  content: "\1F496"; /* Código Unicode del emoji de corazón 
-}*/
+h1::after {
+  content: "\1F496"; }
 
